@@ -291,7 +291,7 @@ function createContext(num, myCanvas) {
   var contexts = [];
   for (var i = 0; i < num; ++i) {
     contexts[i] = myCanvas.getContext('2d');
-    contexts[i].lineWidth = 4;
+    contexts[i].lineWidth = 2;
     contexts[i].strokeStyle = 'rgba(200, 200, 200, 0.6)';
     contexts[i].fillStyle = 'rgba(200, 200, 200, 0.6)';
   }
