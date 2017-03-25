@@ -33,21 +33,10 @@
 
 #content .msg,
 #content .radio-group {
-	padding-top: 20px;
+	padding-top: 5px;
 }
-
-@media (max-width: 400px) {
-	#content .msg,
-	#content .radio-group {
-		padding-top: 10px;
-	}
-}
-
-
-
-
 
 #content .radio-group .radio {
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
