@@ -1,0 +1,53 @@
+// header样式
+#header {}
+
+#header h1 {
+	color: #555;
+	font-size: 34px;
+	text-align: center;
+	line-height: 2;
+	margin: 0;
+	padding-top: 15px;
+	border-bottom: 2px solid #ddd;
+}
+
+@media (max-width: 370px) {
+	#header h1 {
+		font-size: 30px;
+	}
+}
+
+#content {
+	text-align: center;
+	font-size: 24px;
+}
+
+@media (max-width: 370px) {
+	#content {
+		font-size: 20px;	
+	}
+}
+
+#content .canvas-container{
+}
+
+#content .msg,
+#content .radio-group {
+	padding-top: 20px;
+}
+
+@media (max-width: 400px) {
+	#content .msg,
+	#content .radio-group {
+		padding-top: 10px;
+	}
+}
+
+
+
+
+
+#content .radio-group .radio {
+	padding-top: 10px;
+}
+

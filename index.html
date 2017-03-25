@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>手势解锁</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>手势密码</h1>
+    </div>
+    <div id="content">
+        <div class="canvas-container" id="canvasContainer">
+        </div>
+        <div class="msg" id="msg">请设置密码</div>
+        <div class="radio-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="setSecret" value="option1"> 设置密码
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="validSecret" value="option2"> 验证密码
+                </label>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
